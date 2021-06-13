@@ -1,0 +1,46 @@
+header{
+	width: 99%;
+	height: 100px;
+	border: 1px solid black;
+	min-width: 600px;
+	/*overflow: auto;*/
+}
+.logo_senegal{
+	width: 19%;
+	height: 100%;
+	background-color: yellow;
+	display: inline-block;
+	line-height: 190px;
+}
+.text1{
+	width: 60.5%;
+	height: 100%;
+	background-color: blue;
+	display: inline-block;
+	overflow: auto;
+	text-align: center;
+}
+.logo_ministre{
+	margin-top: 0px;
+	width: 19%;
+	height: 100%;
+	background-color: yellow;
+	display: inline-block;
+	line-height: 190px;
+}
+.Situation{
+	height: 300px;
+	width: 24%;
+	border: 1px solid black;
+	text-align: center;
+	overflow: auto;
+	margin: 1px;
+	display: inline-block;
+	/*la transition*/
+	transition: width 2s, background-color 5s ;
+}
+.Situation:hover{
+	background-color: yellow;
+	color: red;
+	width: 48.8%;
+}
